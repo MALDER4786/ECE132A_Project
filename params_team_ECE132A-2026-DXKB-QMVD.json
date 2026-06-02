@@ -1,0 +1,18 @@
+{
+  "team_token": "ECE132A-2026-DXKB-QMVD",
+  "modulation": "64QAM",
+  "M": 64,
+  "bits_per_symbol": 6,
+  "samples_per_symbol": 4,
+  "rrc": {
+    "rolloff": 0.25,
+    "span_symbols": 10
+  },
+  "preamble_length": 256,
+  "payload_length_bits": 4096,
+  "target_BER": 0.0001,
+  "EbN0_target_dB": 15.61,
+  "rx_signal_file": "rx_team_ECE132A-2026-DXKB-QMVD.mat",
+  "truth_file": "truth_team_ECE132A-2026-DXKB-QMVD.txt",
+  "note": "Your channel has a deep spectral null at a frequency you must estimate; one small impairment is present that you must identify."
+}
